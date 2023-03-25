@@ -3,7 +3,7 @@ import os, shutil, getpass
 
 username = getpass.getuser()
 user_directory = " " 
-storage_directory = "D:\Gene's Files" + "\\docgrabber_storage"
+storage_directory = "D:\" + "\\docgrabber_storage"
 word_directory = storage_directory + "\\wordDocs"
 pdf_directory = storage_directory + "\\pdfDocs"
 txt_directory = storage_directory + "\\txtDocs"
